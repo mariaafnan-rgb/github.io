@@ -107,3 +107,49 @@ a { color: inherit; }
     display: block;
 }
 
+
+/* Publications Section */
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.publication-item {
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+}
+
+.publication-item h3 {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.publication-item p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+
+.publication-journal {
+    color: var(--muted);
+    font-style: italic;
+}
+
+.scholar-link {
+    margin-top: 25px;
+}
+
+.scholar-link a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.scholar-link a:hover {
+    text-decoration: underline;
+}
